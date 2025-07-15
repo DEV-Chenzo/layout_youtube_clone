@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,13 +15,77 @@
         <img src="assets/images/search.png" alt="search-icon" />
       </button>
       <div class="header-right">
-        <img src="assets/images/video.png" alt="video-icon" />
-        <img src="assets/images/bell.png" alt="bell-icon" />
-        <img src="assets/images/avatar.png" alt="avatar" />
+        <button type="button">
+          <img src="assets/images/video.png" alt="video-icon" />
+        </button>
+        <button type="button">
+          <img src="assets/images/bell.png" alt="bell-icon" />
+        </button>
+        <img src="assets/images/Avatar.png" alt="avatar" />
       </div>
     </header>
-    <main></main>
-    <section id="navigation-bar"></section>
+    <main>
+      <section id="video_channel">
+        <iframe
+          width="950"
+          height="600"
+          src="https://www.youtube.com/embed/zGPS2BilrJI?si=ZPOiW1Y4mVsXsj5S"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <h1>
+          TUDO o que um DESENVOLVEDOR FRONT-END deve saber! | Primeiros passos
+          #23
+        </h1>
+        <p class="bold description-base">
+          8.456 visualizações há 2 anos. Estreou em 8 de agosto de 2022
+        </p>
+        <p class="description-completed">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi
+          aliquid soluta! Iste, dolor molestias. Ut alias perferendis officia
+          neque reiciendis cupiditate nihil quidem qui ipsam dolor, veritatis
+          deserunt corrupti odit placeat quam.
+        </p>
+        <form action="get">
+          <picture>
+            <div>
+              <img
+                src="assets/images/Channel_Avatar.png"
+                alt="Channel Avatar"
+              />
+            </div>
+            <h2>DIO</h2>
+            <p class="subscribers">122K inscritos</p>
+          </picture>
+          <button type="button" class="form_btn subscribe">Inscreva-se</button>
+          <button type="button" class="form_btn thumbs_up">
+            <img src="assets/images/thumbs-up.png" alt="gostei" />
+          </button>
+          <label for="gostei">Gostei</label>
+          <button type="button" class="form_btn thumbs_down">
+            <img src="assets/images/thumbs-down.png" alt="não gostei" />
+          </button>
+          <label for="não gostei">Não gostei</label>
+          <button type="button" class="form_btn share">
+            <img src="assets/images/share-2.png" alt="compartilhar" />
+          </button>
+          <label for="compartilhar">Compartilhar</label>
+          <button type="button" class="form_btn download">
+            <img src="assets/images/download.png" alt="baixar" />
+          </button>
+          <label for="baixar">Baixar</label>
+        </form>
+      </section>
+      <section id="Side-bar">
+        <picture>
+          <img src="assets/images/Sidebar.png" alt="Sidebar fake" />
+        </picture>
+      </section>
+    </main>
+
     <footer>
       <p>&copy; 2023 Layout Clone do Youtube</p>
     </footer>
