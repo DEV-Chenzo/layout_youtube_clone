@@ -11,23 +11,38 @@ header {
   height: 6rem;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;}
+  padding: 0 1rem;
+}
+
+.header-left, .header-mid, .header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 img.logo {
   width: 90px;
 }
 
-#header-left {
-  display: flex;
-  align-items: center;
+header input {
+  height: 2.5rem;
+  width: 20rem;
 }
 
-header input {
-height: 2.5rem;
-width: 18rem;
+
+.header-mid button {
+  margin-right: 2px;
+  padding: 5.5px;
+  border: 1px solid #b3b1b1;
 }
+
+.header-mid button img {
+  width: 100%;
+}
+
 header input[type="text"] {
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+
 }
