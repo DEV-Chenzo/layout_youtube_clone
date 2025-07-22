@@ -8,28 +8,35 @@ button {
 
 header {
   display: flex;
-  height: 6rem;
+  height: 56px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 2rem;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   padding: 0 1rem;
 }
 
-.header-left, .header-mid, .header-right {
+.header-left,
+.header-mid,
+.header-right {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.header-left img {
+  margin: 0 15px 0 10px;
+}
 
 img.logo {
-  width: 90px;
+  width: 100px;
 }
 
 header input {
-  height: 2.5rem;
+  height: 40px;
   width: 20rem;
 }
-
 
 .header-mid button {
   margin-right: 2px;
@@ -44,5 +51,106 @@ header input {
 header input[type="text"] {
   padding: 0.5rem;
   border: 1px solid #ccc;
+}
 
+header input::placeholder {
+  color: transparent;
+}
+
+.header-right {
+  gap: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 1rem 1rem 4.6rem;
+}
+
+section#video_channel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main section#video_channel iframe {
+  width: 952px;
+}
+
+#video_channel h1,
+#video_channel p,
+#video_channel form {
+  max-width: 952px;
+}
+
+#video_channel form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  height: 70px;
+}
+
+#video_channel form picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+#channel_information {
+  display: flex;
+  flex-direction: column;
+  font-size: 70%;
+}
+
+.form_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+
+.subscribe {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  width: 180px;
+  height: 45px;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.description-base{
+  margin-bottom: 1rem;
+}
+
+.description-completed {
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  width: 55%;
+}
+
+.blue-fake {
+  color: #1a73e8;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 2rem;
+  background-color:#7a7373;
+  color: #ffffff;
 }

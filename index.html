@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layout Clone do Youtube</title>
-    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/reset.css" />
     <link rel="stylesheet" href="assets/style/layout.css" />
   </head>
   <body>
     <header>
       <div class="header-left">
         <img src="assets/images/menu.png" alt="menu-icon" />
-        <img class="logo" src="assets/images/youtube-logo.png" alt="logo-youtube" />
+        <img
+          class="logo"
+          src="assets/images/youtube-logo.png"
+          alt="logo-youtube"
+        />
       </div>
       <div class="header-mid">
         <input type="text" placeholder="Pesquisar" />
@@ -45,18 +49,6 @@
           TUDO o que um DESENVOLVEDOR FRONT-END deve saber! | Primeiros passos
           #23
         </h1>
-        <p class="bold description-base">
-          8.456 visualizações há 2 anos. Estreou em 8 de agosto de 2022
-        </p>
-        <p class="description-completed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi
-          aliquid soluta! Iste, dolor molestias. Ut alias perferendis officia
-          neque reiciendis cupiditate nihil quidem qui ipsam dolor, veritatis
-          deserunt corrupti odit placeat quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi
-          aliquid soluta! Iste, dolor molestias. Ut alias perferendis officia
-          neque reiciendis cupiditate nihil quidem qui ipsam dolor, veritatis
-          deserunt corrupti odit placeat quam.
-        </p>
         <form action="get">
           <picture>
             <div>
@@ -65,8 +57,10 @@
                 alt="Channel Avatar"
               />
             </div>
-            <h2>DIO</h2>
-            <p class="subscribers">122K inscritos</p>
+            <div id="channel_information">
+              <h2>DIO</h2>
+              <p class="subscribers">122K inscritos</p>
+            </div>
           </picture>
           <button type="button" class="form_btn subscribe">Inscreva-se</button>
           <button type="button" class="form_btn thumbs_up">
@@ -86,6 +80,19 @@
           </button>
           <label for="baixar">Baixar</label>
         </form>
+        <p class="bold description-base">
+          8.456 visualizações há 2 anos. Estreou em 8 de agosto de 2022
+        </p>
+        <p class="description-completed">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut excepturi
+          aliquid soluta! Iste, dolor molestias. Ut alias perferendis officia
+          neque reiciendis cupiditate nihil quidem qui ipsam dolor, veritatis
+          deserunt corrupti odit placeat quam. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Aut excepturi aliquid soluta! Iste,
+          dolor molestias. Ut alias perferendis officia neque reiciendis
+          cupiditate nihil quidem qui ipsam dolor, veritatis deserunt corrupti
+          odit placeat quam...<span class="blue-fake">Ler mais</span>
+        </p>
       </section>
       <section id="Side-bar">
         <picture>
@@ -96,6 +103,7 @@
 
     <footer>
       <p>&copy; 2023 Layout Clone do Youtube</p>
+      <p>por: <a href="https://github.com/DEV-Chenzo" target="_blank" rel="noopener noreferrer">DEV-Chenzo</a></p>
     </footer>
   </body>
 </html>
